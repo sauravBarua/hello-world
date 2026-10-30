@@ -1,0 +1,13 @@
+{
+  "name": "hello-express",
+  "version": "1.0.0",
+  "description": "A minimal Hello World Express app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
