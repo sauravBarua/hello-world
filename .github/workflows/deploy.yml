@@ -58,6 +58,6 @@ jobs:
             docker run -d \
               --name hello-world \
               --restart unless-stopped \
-              -p 3000:3000 \
+              -p 80:3000 \
               "$IMAGE:latest"
             docker image prune -f
